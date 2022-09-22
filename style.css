@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+
 body, html {
   background: url(/images/concert.jpg);
   background-repeat: no-repeat;
@@ -8,6 +10,14 @@ body, html {
   font-size: 10px;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  font-family: Rancho;
+  font-size: 5em !important;
+}
+
 .plays {
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +25,8 @@ body, html {
   justify-content: center;
   gap: 2.5rem;
   flex: 1;
-  min-height: 100vh;
+  min-height: 50vh;
+  padding-top: 3rem;
 }
 
 .play {
@@ -33,7 +44,7 @@ body, html {
 }
 
 .playing {
-  transform: scale(1.2);
+  transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
